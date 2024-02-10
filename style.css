@@ -1,0 +1,35 @@
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    transition-duration: 2s;
+
+}
+
+.box:hover {
+    background-color: yellow;
+    transition: 2sease-in-out;
+    height: 500px;
+    width: 500px;
+
+}
+
+#lname:focus {
+    color: red;
+}
+
+div p:nth-child(2n+1) {
+    color: red;
+}
+
+ol li:first-child {
+    color: hotpink;
+}
+
+ol li::before {
+    content: "yes, ";
+}
+
+ol li::after {
+    content: " forever";
+}
